@@ -1,0 +1,275 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 160px;
+    width: 100%;
+}
+
+.header-logo {
+    width: 600px;
+}
+
+.header-logo-text {
+    font-size: 28px;
+    padding-left: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.header-list {
+    padding-left: 170px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-links {
+    padding: 25px;
+    color: #C0C0C0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-left {
+    width: 1150px;
+    background-color: #101010;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-text-1 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 115px;
+    font-weight: 700;
+    font-size: 82px;
+    letter-spacing: -1px;
+    line-height: 100px;
+    width: 700px;
+    color: #ffffff;
+}
+
+.hero-text-2 {
+    margin-top: 70px;
+    margin-left: 115px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #C0C0C0;
+    word-spacing: 1px;
+    letter-spacing: 1.7px;
+    width: 500px;
+}
+
+.hero-button {
+    margin-top: 70px;
+    margin-left: 115px;
+    background-color: #ffffff;
+    color: #080808;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 7.5px;
+    letter-spacing: 0.5px;
+    padding: 14px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.hero-button-2 {
+    margin-left: 15px;
+    padding: 14px 30px;
+    background-color: #101010;
+    color : #ffffff;
+    border: none;
+    transition: 0.3s;
+}
+
+.hero-button-2:hover {
+    background-color: #282828;
+    color: #E0E0E0;
+}
+
+.hero-right {
+    flex: 1;
+    background-image: url("images/bg-right.png");
+    background-size: cover;
+}
+
+.main-flyer {
+    margin: 10px 220px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-header {
+    margin: 70px 0px 30px 70px;
+    font-size: 62px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+}
+
+.symptom {
+    margin: 20px 0px 10px 70px;
+    border: none;
+    padding: 21px 183px 21px 31px;
+    outline:none;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    background-color: #E8E8E8;
+}
+
+
+.main-button-container {
+    display: flex;
+    margin: 40px 0px 40px 70px;
+}
+
+.find-button {
+    border: none;
+    font-size: 16px;
+    padding: 14px 21px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 7.5px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #101010;
+}
+
+.copyright {
+    margin: 30px 70px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+
+@media only screen and (max-width: 1380px) {
+
+    header {
+        height: 120px;
+    }
+
+    .header-logo-text {
+        font-size: 25px;
+        padding-left: 80px;
+    }
+
+
+
+    .hero-left {
+        width: 800px;
+        height : 700px;
+    }
+
+    .header-list {
+        padding-left: 20px;
+    }
+
+    .header-links {
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .hero-text-1 {
+        font-size: 50px;
+        width: 480px;
+        line-height: 60px;
+    }
+
+    .hero-text-2 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .hero-button {
+        margin-top: 30px;
+        margin-left: 115px;
+        font-size: 14px;
+    }
+    .hero-button-2 {
+        margin-left: 15px;
+        padding: 14px 30px;
+    }
+
+    .main-flyer {
+        margin: 10px 180px;
+        width: 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .main-header {
+        margin: 50px 0px 30px 70px;
+        font-size: 48px;
+    }
+    
+    .symptom {
+        margin: 10px 0px 10px 70px;
+        border: none;
+        padding: 21px 163px 21px 31px;
+        outline:none;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        background-color: #E8E8E8;
+    }
+    
+    
+    .main-button-container {
+        margin: 15px 0px 60px 70px;
+    }
+    
+    .find-button {
+        font-size: 14px;
+        padding: 14px 21px;
+    }
+
+    .copyright {
+        margin: 20px 50px;
+        font-size: 12px;
+    }
+}
